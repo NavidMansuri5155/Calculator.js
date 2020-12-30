@@ -1,0 +1,140 @@
+body{
+	margin:0;
+	padding:0;
+	background: white;
+  }
+  
+  /* Area between table and background */
+  .container{
+   width: 330px;
+   padding-top: 10%;
+   padding-left: 15px;
+   background: white;
+  }
+  
+  /* All Buttons*/
+  table{
+   margin: 0px 5px 5px 5px;
+   background: white;
+   text-align: center;
+  }
+  
+  /* keypad Buttons area */
+  button{
+   width: 50px; 
+   height: 50px; 
+   font-size: 25px;
+   background-color: white;
+   color: black;
+   border: 2px solid grey;
+   border-radius: 50px;
+   outline:none;
+  }
+  
+  /* Keypad Buttons effect after press */
+  button:active{
+   background-color: black;
+   color: white;
+   outline:none;
+  }
+  
+  /* +-*÷ etc */
+  .redbtn{
+  background:#ff3300;
+  color: white;
+  }
+  .redbtn:active {
+  background: white;
+  color: #ff3300;
+  }
+  
+  /* Scientific Buttons area */
+  .top{
+   height: 50px; 
+   width: 50px;
+   background-color: black;
+   border-radius: 50px;
+   border: 2px solid grey;
+   color: white;
+   font-size: 16px;
+   outline:none;
+  }
+  
+  /* Scientific Buttons effect after press*/
+  .top:active{
+  background-color: white;
+  color: black;
+  outline:none;
+  }
+  
+   /* C button */
+  #c{
+   height: 110px;
+   background-color: #ff3300;
+   color: white;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 30px;
+  }
+  
+  /* C button after active */
+  #c:active{
+   background-color: white;
+   color: #ff3300;
+   outline:none;
+  }
+  
+  /*All over output*/
+  #display-container {
+   border: 1px solid black;
+   margin-bottom: 10px;
+   width: 300px;
+   height: 80px;
+  }
+  
+  /* display 1 */
+  #display1 {
+   background-color: white;
+   font-size: 20px;
+   color: black;
+   overflow: scroll;
+  }
+  
+  /* display 2*/
+  #h1, #display1 { 
+   padding-top: 10px; 
+   background-color: white; 
+   font-size: 25px;
+   font-weight: bold;
+   text-align: right;
+   overflow: scroll;
+   font-weight:bold;
+   color: black;
+  }
+  
+  /* Calculator around */
+  .div {
+   border-top: 1px solid grey;
+   border-left: 1px solid grey;
+   box-shadow: 10px 5px 7px grey;
+   border-radius: 5px;
+   margin: 0px 5px 5px 5px;
+   padding-top: 0px;
+   width: 320px;
+   background-color: white;
+   font-size: 11px;
+   color: white;
+
+  }
+  
+  .w {
+   box-shadow: -10px 10px 10px silver;
+   border: 5px #6bc groove;
+   margin: 0px 5px 5px 5px;
+   border-radius: 10px;
+   padding-top: 0px;
+   font-size: 11px;
+   cursor: pointer;
+   width: 285px;
+   color: white;
+  }
